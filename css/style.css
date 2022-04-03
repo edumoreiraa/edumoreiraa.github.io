@@ -1,0 +1,79 @@
+*
+{ margin:0;
+ padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+body{
+    color: rgb(0, 0, 0);
+    background: rgb(255,217,170);
+background: linear-gradient(0deg, rgba(255,217,170,1) 0%, rgba(205,119,0,1) 100%);
+    font-family: 'Raleway', sans-serif;
+
+}
+.avatar{
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+h2{
+    font-size: 16px;
+}
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+   display: flex;
+   justify-content: space-around;
+   margin: 20px 0;
+}
+.social img
+{width: 33px ;
+}
+.social a{
+    text-decoration: none;
+}
+
+.footer{
+     background-color: rgb(0, 0, 0);
+    text-align:center;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 20px;
+   
+    
+    }
+.link-list li{
+   margin: 10px 20px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    
+}
+.link-list li a{
+    display: block;
+    background-color: rgb(236, 234, 234);
+    list-style-type: none;
+    border-radius: 4px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.link-list li a span{
+    display: block;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
